@@ -14,6 +14,7 @@ export default function Home() {
 
       <div className="mt-16 flex justify-center">
         <div>your DYNAMIC value is:</div>
+
         <b className="mx-3 text-red-500">
           {publicRuntimeConfig.NEXT_PUBLIC_DYNAMIC_VALUE}
         </b>
@@ -21,3 +22,4 @@ export default function Home() {
     </div>
   );
 }
+
